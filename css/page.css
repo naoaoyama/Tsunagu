@@ -1,0 +1,1600 @@
+/* ############ 共通 ############### */
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  color: #AC7161;
+  text-decoration: underline 3px #F3E485;
+  text-underline-offset: 13px;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #AC7161;
+  background: linear-gradient(to right, #EEDA95, #F2ECD2);
+  padding: 2px 8px;
+  letter-spacing: 2px;
+  width: 100%;
+}
+
+.breadcrum__list-group {
+  display: flex;
+  column-gap: 10px;
+  padding-top: 20px;
+  padding-left: 120px;
+}
+
+.breadcrum__list {
+  font-size: 9px;
+  text-decoration: none;
+  color: black;
+}
+
+/* ############ nursing ############### */
+
+
+.nursing__header--img {
+  background-image: url("/img/AdobeStock_218711800.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px;
+  opacity: .6;
+}
+
+.nursing-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  padding-top: 25px;
+}
+
+.nursing-about__description {
+  width: 61%;
+}
+
+.nursing-merit {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  row-gap: 60px;
+  margin: 0 auto;
+  padding: 0 4% 50px 4%;
+}
+
+.nursing-merit__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 38px;
+  row-gap: 50px;
+}
+
+
+.nursing-merit__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 90px;
+}
+
+.nursing-merit__group {
+  display: flex;
+  column-gap: 40px;
+}
+
+.nursing-merit__group:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.nursing-merit__img {
+  width: 555px;
+  height: 329px;
+}
+
+.nursing-merit__description {
+  width: 66%;
+}
+
+.logo {
+  background-color: #FACFC6;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.logo__inner {
+  background-color: #FACFC6;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo__text {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  text-decoration: underline;
+}
+
+.nursing-merit__title {
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  color: #AC7161;
+  text-decoration: underline 9px #EEDEA6;
+  text-underline-offset: -2px;
+  position: relative;
+  bottom: 15px;
+  font-weight: bold;
+}
+
+.nursing-merit__text {
+  padding-top: 12px;
+  line-height: 1.5;
+}
+
+/* ############ crime ############### */
+
+.crime__header--img {
+  background-image: url("/img/AdobeStock_389811229.jpeg");
+  background-repeat: no-repeat;
+  background-position: center 75%;
+  background-size: cover;
+  height: 550px;
+  opacity: .6;
+}
+
+.crime-about {
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+  padding-bottom: 40px;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.crime-about__img {
+  width: 355px;
+  height: 230px;
+}
+
+.crime-about__wrap {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.crime-about__group {
+  display: flex;
+  max-width: 990px;
+  min-width: 55%;
+  column-gap: 25px;
+  padding: 0 4%;
+}
+
+.crime-about__second-title {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #AC7161;
+}
+
+.crime-support {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4% 100px 4%;
+}
+
+.crime-support__description {
+  padding-top: 30px;
+  width: 78%;
+}
+
+.crime-support__wrapper-notes {
+  display: flex;
+  justify-content: flex-end;
+  width: 730px;
+}
+
+.crime-support__list-group {
+  background-color: #F5EBCA;
+  padding: 20px;
+  line-height: 3.5;
+  width: 636px;
+  list-style: none;
+}
+
+.crime-support__list {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.crime-support__logo {
+  background-color: #F8BFB3;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crime-support__logo-text {
+  color: white;
+  font-size: 10px;
+}
+
+.crime-support__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 65px;
+  padding-top: 30px;
+}
+
+.crime-support__wrapper-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crime-support__img {
+  width: 820px;
+  height: 240px;
+}
+
+/* ######## welfare ####### */
+
+.welfare__header--img {
+  background-image: url("/img/page5header.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 36%;
+  height: 410px;
+  opacity: .6;
+}
+
+
+.welfare-about {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  padding: 20px 4% 30px 4%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.welfare-about__description {
+  width: 61%;
+}
+
+.welfare-promise {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  padding: 0 4%;
+  margin: 0 auto;
+}
+
+.welfare-promise__summary {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin: 0 auto;
+
+}
+
+.welfare-promise__description {
+  padding-top: 90px;
+  padding-left: 20px;
+  width: 44%;
+}
+
+.welfare-promise__img {
+  width: 470px;
+  height: 260px;
+  margin-top: -72px;
+  margin-left: -15px;
+}
+
+.welfare-promise__title {
+  color: #AD7161;
+  border-left: 4px solid #F8BFB3;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  padding-left: 10px;
+}
+
+.welfare-promise__area {
+  padding-left: 20px;
+  display: flex;
+  padding-bottom: 80px;
+  max-width: 868px;
+  margin: 0 auto;
+}
+
+.welfare-promise__list img {
+  width: 27px;
+}
+
+
+
+.welfare-promise__list-group {
+  display: flex;
+  flex-direction: column;
+  row-gap: 21px;
+  background-color: #F5EBCA;
+  width: 504px;
+  height: 168px;
+  padding: 20px 20px 45px 10px;
+}
+
+.welfare-promise__list {
+  display: flex;
+  column-gap: 13px;
+  color: #AD7161;
+}
+
+.welfare-promise__logo {
+  background-color: #EEDEA6;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welfare-promise__logo-text {
+  font-size: 18px;
+  color: #AD7161;
+}
+
+.welfare-promise__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 70px;
+}
+
+.welfare-promise__second-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  width: 90%;
+  padding-bottom: 30px;
+}
+
+.welfare-promise__group {
+  padding: 30px;
+}
+
+.welfare-promise__group {
+  position: relative;
+  border: 2px solid #F8BFB3;
+  padding: 15px 15px;
+}
+
+.welfare-promise__prices {
+  position: absolute;
+  padding: 0 0.5em;
+  left: 20px;
+  top: -13px;
+  color: #F8BFB3;
+  background-color: #ffffff;
+}
+
+.welfare-promise__prices-list {
+  list-style-type: none;
+}
+
+.welfare-promise__description-group {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.welfare-promise__wrapper-warning {
+  padding: 20px 0px;
+}
+
+
+.welfare-promise__warning {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin: 0 auto;
+  width: 680px;
+  height: 80px;
+  color: #AC7161;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.welfare-promise__warning::before {
+  transform: skewX(-40deg);
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: #F8BFB3;
+}
+
+
+.welfare-process {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+  padding: 0 4% 100px 4%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.welfare-process__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+  width: 87%;
+}
+
+.welfare-process__group {
+  display: flex;
+  column-gap: 50px;
+  width: 88%;
+}
+
+.welfare-process__item {
+  display: flex;
+  column-gap: 15px;
+  padding-top: 10px;
+}
+
+.welfare-process__img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.welfare-process__title {
+  color: #AC7161;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.welfare-process__description {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  padding-top: 10px;
+}
+
+/* ######## system ####### */
+
+.system__header--img {
+  background-image: url("/img/system_bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 410px;
+  opacity: .6;
+}
+
+.system-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  padding-top: 25px;
+}
+
+.system-about__description {
+  width: 64%;
+}
+
+.system-merit {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  row-gap: 65px;
+  margin: 0 auto;
+  padding: 0 4% 50px 4%;
+}
+
+.system-merit__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  row-gap: 50px;
+}
+
+
+.system-merit__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 90px;
+}
+
+.system-merit__img--01 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.system-merit__img--01 img {
+  width: 100%;
+}
+
+.system-merit__title {
+  color: #AD7161;
+  border-left: 4px solid #F8BFB3;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  padding-left: 10px;
+  margin-bottom: 45px;
+}
+
+.system-merit__lead {
+  background: linear-gradient(transparent 70%, #EEDEA6 70%);
+  font-size: 20px;
+  display: inline;
+}
+
+.system-merit__img--02 {
+  max-width: 852px;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+.system-merit__img--02 img {
+  width: 100%;
+}
+
+.system-merit__img--03 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+.system-merit__img--03 img {
+  width: 100%;
+}
+
+
+.table-wrapper {
+  overflow-x: scroll;
+  margin: 0 auto;
+  max-width: 897px;
+}
+
+.no-border {
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+
+.bg-yellow {
+  width: 39%;
+  background-color: #EEDEA6;
+  padding: 15px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  border: solid 1px #ffffff;
+}
+
+.bg-pink {
+  width: 39%;
+  background-color: #F8BFB3;
+  padding: 15px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  border: solid 1px #ffffff;
+}
+
+.fc-brown {
+  color: #AC7161;
+  font-weight: bold;
+}
+
+
+table {
+  margin-top: 50px;
+  border-collapse: collapse;
+  max-width: 897px;
+  margin: 0 auto;
+}
+
+table tbody tr td {
+  border: solid 1px #dadada;
+}
+
+table tbody tr td {
+  padding: 15px;
+  vertical-align: middle;
+  line-height: 2;
+}
+
+.system-merit__text {
+  max-width: 897px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+}
+
+.pc {
+  display: block;
+}
+
+.sp {
+  display: none;
+}
+
+/* ############ contact ############### */
+
+
+.title__wrapper {
+  text-align: center;
+
+  padding: 50px 0;
+}
+
+.contact-about__description {
+  width: 64%;
+  margin: 50px auto 0 auto;
+}
+
+#contact {
+  max-width: 1100px;
+  padding: 60px 4% 0 4%;
+  margin: 0 auto;
+}
+
+.h-text {
+  text-align: center;
+}
+
+.line-btn {
+  width: 364px;
+  font-size: 17px;
+  background-color: #9ec91c;
+  color: #ffffff;
+  text-align: center;
+  margin: -60px auto 60px auto;
+  padding: 26px 0;
+  font-weight: bold;
+}
+
+.line-btn:hover {
+  opacity: 0.7;
+}
+
+.form-container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 4%;
+}
+
+form div {
+  margin-bottom: 14px;
+}
+
+label {
+  display: block;
+  padding-bottom: 15px;
+  font-weight: bold;
+  font-size: 17px;
+  color: #AC7161;
+
+}
+
+.textform {
+  width: 100%;
+  padding: 1% 1%;
+  border: 1px solid #c6c6c6;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 1px 3px rgb(0 0 0 / 5%) inset;
+  box-shadow: 1px 1px 3px rgb(0 0 0 / 5%) inset;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 1% 1%;
+  border: 1px solid #c6c6c6;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 1px 3px rgb(0 0 0 / 5%) inset;
+  box-shadow: 1px 1px 3px rgb(0 0 0 / 5%) inset;
+}
+
+.required {
+  background-color: #AC7161;
+  color: #ffffff;
+  padding: 0px 5px;
+  margin: 0 10px 0px 0px
+}
+
+.any {
+  background-color: #ffffff;
+  color: #AC7161;
+  border: 1px solid #AC7161;
+  padding: 0px 5px;
+  margin: 0 10px 0px 0px
+}
+
+.contact-item {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 120px;
+}
+
+.contact-btn {
+  width: 400px;
+  padding: 20px 0;
+  background-color: #ffffff;
+  font-weight: bold;
+  border: 1px solid #AC7161;
+  font-size: 17px;
+  color: #AC7161;
+}
+
+.contact-btn:hover {
+  opacity: 0.7;
+}
+
+.contact-privacy {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact-privacy a {
+  color: #1571DA;
+  display: inline-block;
+}
+
+/* ############ privacy ############### */
+
+.privacy__container {
+  max-width: 1050px;
+  margin: 0 auto 50px auto;
+  padding: 0 4%;
+}
+
+.privacy__container li {
+  padding-bottom: 40px;
+}
+
+.privacy_lead {
+  font-size: 24px;
+  font-weight: bold;
+  color: #AC7161;
+  border-left: 5px solid #F8BFB3;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 950px) {
+
+
+  /* ############ 共通 ############### */
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    color: #AC7161;
+    text-decoration: underline 3px #F3E485;
+    text-underline-offset: 13px;
+  }
+
+  .heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #AC7161;
+    background: linear-gradient(to right, #EEDA95, #F2ECD2);
+    padding: 2px 8px;
+    letter-spacing: 2px;
+    width: 96%;
+  }
+
+  .breadcrum__list-group {
+    display: flex;
+    column-gap: 10px;
+    padding-top: 20px;
+    padding-left: 120px;
+  }
+
+  .breadcrum__list {
+    font-size: 9px;
+    text-decoration: none;
+    color: black;
+  }
+
+  /* ############ nursing ############### */
+
+
+  .nursing__header--img {
+    background-image: url("/img/AdobeStock_218711800.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    opacity: .6;
+  }
+
+  .nursing-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    padding-top: 25px;
+  }
+
+
+  .nursing-about__description {
+    width: 90%;
+  }
+
+  .nursing-merit {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    row-gap: 35px;
+    margin: 0 auto;
+    padding: 0 4% 50px 4%;
+  }
+
+  .nursing-merit__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    row-gap: 35px;
+  }
+
+
+
+  .nursing-merit__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+  }
+
+  .nursing-merit__group {
+    display: flex;
+    column-gap: 40px;
+    row-gap: 30px;
+    flex-direction: column;
+  }
+
+  .nursing-merit__group:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .nursing-merit__img {
+    width: 100%;
+    height: auto;
+  }
+
+  .nursing-merit__description {
+    width: 100%;
+  }
+
+  .logo {
+    background-color: #FACFC6;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .logo__inner {
+    background-color: #FACFC6;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo__text {
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    text-decoration: underline;
+  }
+
+  .nursing-merit__title {
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    color: #AC7161;
+    text-decoration: underline 9px #EEDEA6;
+    text-underline-offset: -2px;
+    position: relative;
+    bottom: 15px;
+    font-weight: bold;
+  }
+
+  .nursing-merit__text {
+    padding-top: 12px;
+    line-height: 1.5;
+  }
+
+  /* ############ crime ############### */
+
+  .crime__header--img {
+    background-image: url("/img/AdobeStock_389811229.jpeg");
+    background-repeat: no-repeat;
+    background-position: center 75%;
+    background-size: cover;
+    height: 250px;
+    opacity: .6;
+  }
+
+  .crime-about {
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    padding-bottom: 40px;
+    align-items: center;
+    padding-top: 25px;
+  }
+
+  .crime-about__img {
+    width: 100%;
+    height: auto;
+  }
+
+  .crime-about__wrap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .crime-about__group {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    column-gap: 25px;
+    row-gap: 35px;
+  }
+
+  .crime-about__second-title {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: #AC7161;
+  }
+
+  .crime-support {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 4% 100px 4%;
+  }
+
+  .crime-support__description {
+    padding-top: 30px;
+    width: 96%;
+  }
+
+  .crime-support__wrapper-notes {
+    display: flex;
+    justify-content: flex-end;
+    width: 730px;
+  }
+
+  .crime-support__list-group {
+    background-color: #F5EBCA;
+    padding: 14px;
+    line-height: 2.5;
+    width: 96%;
+  }
+
+  .crime-support__list {
+    display: flex;
+    align-items: baseline;
+    column-gap: 15px;
+  }
+
+  .crime-support__logo {
+    background-color: #F8BFB3;
+    border-radius: 50%;
+    min-width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .crime-support__logo-text {
+    color: white;
+    font-size: 10px;
+  }
+
+  .crime-support__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 45px;
+    padding-top: 30px;
+  }
+
+  .crime-support__wrapper-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .crime-support__img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ########page5_welfare####### */
+
+  .welfare__header--img {
+    background-image: url("/img/page5header.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 36%;
+    height: 250px;
+    opacity: .6;
+  }
+
+  .welfare-about {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding: 20px 4% 30px 4%;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .welfare-about__description {
+    width: 90%;
+  }
+
+  .welfare-promise {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    padding: 0 4%;
+    margin: 0 auto;
+  }
+
+  .welfare-promise__summary {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin: 0 auto;
+  }
+
+  .welfare-promise__description {
+    padding-top: 45px;
+    padding-left: 0px;
+    width: 100%;
+  }
+
+  .welfare-promise__img {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+
+  .welfare-promise__title {
+    color: #AD7161;
+    border-left: 4px solid #F8BFB3;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    padding-left: 10px;
+  }
+
+  .welfare-promise__area {
+    padding-left: 0px;
+    display: flex;
+    padding-bottom: 80px;
+    max-width: 868px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .welfare-promise__list img {
+    width: 22px;
+  }
+
+
+
+  .welfare-promise__list-group {
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+    background-color: #F5EBCA;
+    width: 92%;
+    height: auto;
+    padding: 20px 20px 20px 10px;
+  }
+
+  .welfare-promise__list {
+    display: flex;
+    column-gap: 13px;
+    color: #AD7161;
+  }
+
+  .welfare-promise__logo {
+    background-color: #EEDEA6;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .welfare-promise__logo-text {
+    font-size: 18px;
+    color: #AD7161;
+  }
+
+  .welfare-promise__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 70px;
+  }
+
+  .welfare-promise__second-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .welfare-promise__group {
+    padding: 30px;
+  }
+
+  .welfare-promise__group {
+    position: relative;
+    border: 2px solid #F8BFB3;
+    padding: 15px 15px;
+  }
+
+  .welfare-promise__prices {
+    position: absolute;
+    padding: 0 0.5em;
+    left: 20px;
+    top: -13px;
+    color: #F8BFB3;
+    background-color: #ffffff;
+  }
+
+  .welfare-promise__prices-list {
+    list-style-type: none;
+  }
+
+  .welfare-promise__description-group {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .welfare-promise__wrapper-warning {
+    padding: 20px 0px;
+  }
+
+
+  .welfare-promise__warning {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin: 0 auto;
+    width: 282px;
+    height: 110px;
+    color: #AC7161;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    padding: 0px 4%;
+    font-weight: bold;
+  }
+
+  .welfare-promise__warning::before {
+    transform: skewX(-25deg);
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: #F8BFB3;
+  }
+
+
+  .welfare-process {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+    padding: 0 4% 100px 4%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .welfare-process__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 35px;
+    width: 100%;
+  }
+
+  .welfare-process__group {
+    display: flex;
+    column-gap: 10px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .welfare-process__item {
+    display: flex;
+    column-gap: 15px;
+    padding-top: 10px;
+    flex-direction: column;
+  }
+
+  .welfare-process__img {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+  }
+
+  .welfare-process__title {
+    color: #AC7161;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  .welfare-process__description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding-top: 10px;
+  }
+
+  /* ######## system ####### */
+
+  .system__header--img {
+    background-image: url("/img/system_bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    opacity: .6;
+  }
+
+  .system-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    padding-top: 25px;
+  }
+
+  .system-about__description {
+    width: 90%;
+  }
+
+  .system-merit {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    row-gap: 65px;
+    margin: 0 auto;
+    padding: 0 4% 0px 4%;
+  }
+
+  .system-merit__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    row-gap: 50px;
+  }
+
+
+  .system-merit__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 90px;
+    margin-top: -50px;
+  }
+
+  .system-merit__img--01 {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .system-merit__img--01 img {
+    width: 345px;
+  }
+
+  .system-merit__title {
+    color: #AD7161;
+    border-left: 4px solid #F8BFB3;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding-left: 10px;
+    margin-bottom: 45px;
+  }
+
+  .system-merit__lead {
+    background: linear-gradient(transparent 70%, #EEDEA6 70%);
+    font-size: 14px;
+    display: inline;
+  }
+
+  .system-merit__img--02 {
+    max-width: 345px;
+    margin: 0 auto;
+    padding: 0px 0;
+  }
+
+  .system-merit__img--02 img {
+    width: 100%;
+  }
+
+  .system-merit__img--03 {
+    width: 345px;
+    margin: 0 auto;
+    padding: 0px 0;
+  }
+
+  .system-merit__img--03 img {
+    width: 100%;
+  }
+
+
+
+  .table-wrapper {
+    overflow-x: scroll;
+    margin: 0 auto;
+  }
+
+  .no-border {
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+  }
+
+  .bg-yellow {
+    width: 39%;
+    background-color: #EEDEA6;
+    padding: 7px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    border: solid 1px #ffffff;
+  }
+
+  .bg-pink {
+    width: 39%;
+    background-color: #F8BFB3;
+    padding: 7px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    border: solid 1px #ffffff;
+  }
+
+  .fc-brown {
+    color: #AC7161;
+    font-weight: bold;
+  }
+
+  table {
+    margin-top: 50px;
+    border-collapse: collapse;
+    width: 600px;
+    font-size: 11px;
+  }
+
+  table tbody tr td {
+    border: solid 1px #dadada;
+  }
+
+  table tbody tr td {
+    padding: 10px;
+    vertical-align: middle;
+    line-height: 2;
+  }
+
+  .system-merit__text {
+    max-width: 897px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+
+  ::-webkit-scrollbar {
+    height: 5px;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+
+
+  /* ############ contact ############### */
+
+  .title__wrapper {
+    text-align: center;
+
+    padding: 50px 0;
+  }
+
+  .contact-about__description {
+    width: 90%;
+    margin: 50px auto 0 auto;
+  }
+
+  #contact {
+    max-width: 1100px;
+    padding: 60px 4% 0 4%;
+    margin: 0 auto;
+  }
+
+  .line-btn {
+    width: 300px;
+    background-color: #9ec91c;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px auto 60px auto;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .line-btn:hover {
+    opacity: 0.7;
+  }
+
+  .form-container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 4%;
+  }
+
+  form div {
+    margin-bottom: 14px;
+  }
+
+  label {
+    display: block;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #AC7161;
+
+  }
+
+  .textform {
+    width: 100%;
+    padding: 1% 1%;
+    border: 1px solid #c6c6c6;
+    border-radius: 3px;
+    -webkit-box-shadow: 1px 1px 3px rgb(0 0 0 / 5%) inset;
+    box-shadow: 1px 1px 3px rgb(0 0 0 / 5%) inset;
+  }
+
+  textarea {
+    width: 100%;
+    height: 200px;
+    padding: 2% 1%;
+    border: 1px solid #c6c6c6;
+    border-radius: 3px;
+    -webkit-box-shadow: 1px 1px 3px rgb(0 0 0 / 5%) inset;
+    box-shadow: 1px 1px 3px rgb(0 0 0 / 5%) inset;
+  }
+
+  .required {
+    background-color: #AC7161;
+    color: #ffffff;
+    padding: 0px 5px;
+    margin: 0 10px 0px 0px
+  }
+
+  .any {
+    background-color: #ffffff;
+    color: #AC7161;
+    border: 1px solid #AC7161;
+    padding: 0px 5px;
+    margin: 0 10px 0px 0px
+  }
+
+  .contact-item {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 120px;
+  }
+
+  .contact-btn {
+    width: 300px;
+    padding: 20px 0;
+    background-color: #ffffff;
+    font-weight: bold;
+    border: 1px solid #AC7161;
+    font-size: 15px;
+    color: #AC7161;
+  }
+
+  .contact-btn:hover {
+    opacity: 0.7;
+  }
+
+  .contact-privacy {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .contact-privacy a {
+    color: #1571DA;
+    display: inline-block;
+  }
+
+
+  /* ############ privacy ############### */
+
+  .privacy__container {
+    max-width: 1050px;
+    margin: 0 auto 50px auto;
+    padding: 0 4%;
+  }
+  
+  .privacy__container li {
+    padding-bottom: 40px;
+  }
+  
+  .privacy_lead {
+    font-size: 17px;
+    font-weight: bold;
+    color: #AC7161;
+    border-left: 5px solid #F8BFB3;
+    padding-left: 15px;
+    margin-bottom: 15px;
+  }
+
+}
