@@ -47,9 +47,9 @@
                 <figure>
                   <img src="./img/tel_brown.png" alt="電話のアイコン" />
                 </figure>
-                <a href="tel:06-6843-1199" class="header-nav__tel--number"
-                  >06-6843-1199</a
-                >
+                <a href="tel:06-6843-1199" class="header-nav__tel--number"></a>
+                  06-6843-1199
+                </a>
               </div>
               <p>9:00〜20:00(緊急時24時間対応)</p>
             </li>
@@ -58,7 +58,11 @@
                 <figure>
                   <img src="./img/smart.png" alt="スマホのイラスト" />
                 </figure>
-                <p>LINE<br />お問い合わせ</p>
+                <p>
+                  LINE
+                  <br />
+                  お問い合わせ
+                </p>
               </a>
             </li>
             <li class="header-nav__right--mail">
@@ -66,7 +70,11 @@
                 <figure>
                   <img src="./img/mail_white.png" alt="メールのイラスト" />
                 </figure>
-                <p>MAIL<br />お問い合わせ</p>
+                <p>
+                  MAIL
+                  <br />
+                  お問い合わせ
+                </p>
               </a>
             </li>
           </ul>
@@ -129,7 +137,8 @@
           <h2 class="heading">サブリースにより、当社基準での入居審査を実施</h2>
           <p class="system-merit__description">
             当社の賃貸住宅は、サブリースと呼ばれる契約方式です。当社がオーナー様からお部屋を借り上げ、「家具家電付き」や「保証人・保証会社不要」
-            という独自のサービスを上乗せしたうえで、お客様に貸し出しています。<br />
+            という独自のサービスを上乗せしたうえで、お客様に貸し出しています。
+            <br />
             <br />
             そのため、契約上は貸主が当社となるため、当社の基準で入居審査が可能となっています。入居者の有無にかかわらず家賃を支払い続けるため、
             オーナー様に家賃滞納のリスクはありません。そのため、連帯保証人や保証会社が利用できないような方でも、問題なく入居することができるのです。
@@ -148,7 +157,8 @@
         <div class="system-merit__wrapper">
           <h2 class="heading">当社の利益の仕組み</h2>
           <p class="system-merit__description">
-            上記の仕組みをお話しすると、多くのお客様が「ボランティアですか？」と感じられることもあるようです。<br />
+            上記の仕組みをお話しすると、多くのお客様が「ボランティアですか？」と感じられることもあるようです。
+            <br />
             実は当社の利益は、当社が転貸する過程で家賃を上乗せさせていただき、その差額を利益とすることで収益をあげています。
           </p>
         </div>
@@ -254,8 +264,7 @@
                   </td>
                   <td>
                     <ul>
-                      <li>・入居者の家賃滞納リスクを負う
-                      </li>
+                      <li>・入居者の家賃滞納リスクを負う</li>
                       <li>・入居者が決まらなくても家賃を払う</li>
                     </ul>
                   </td>
@@ -281,7 +290,8 @@
             <p>
               このように、選べる物件は限定されるものの、『保証人も保証会社も不要』『無職や債務整理経験者でも
               入居可能』と大きなメリットがあります。もちろん、不動産オーナー・管理会社も了承済みの契約ですので、
-              不安はありません。<br />
+              不安はありません。
+              <br />
               また、生活保護を受ける方に限りますが、初期費用も最終的には官庁に初期費用扶助として請求をするので
               実際に入居者の方が負担することはありません。こちらの申請も全てサポート致します。
             </p>
@@ -351,7 +361,7 @@
             <li class="question__item">
               <div class="question__item--heading">
                 <p class="question__item--heading--Q">Q</p>
-                <span> パートナーに引っ越しがバレる心配はありますか？</span>
+                <span>パートナーに引っ越しがバレる心配はありますか？</span>
               </div>
               <div class="question__item--answer">
                 <p class="question__item--answer--A">A</p>
@@ -548,9 +558,9 @@
                 <figure>
                   <img src="./img/tel_brown.png" alt="電話のアイコン" />
                 </figure>
-                <a href="tel:06-6843-1199" class="header-nav__tel--number"
-                  >06-6843-1199</a
-                >
+                <a href="tel:06-6843-1199" class="header-nav__tel--number">
+                  06-6843-1199
+                </a>
               </div>
               <p>9:00〜20:00(緊急時24時間対応)</p>
             </div>
@@ -585,6 +595,18 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
-    <script type="text/javascript" src="/script.js"></script>
+    <script>
+      $(function () {
+        $('.hamburger').click(function () {
+          $(this).toggleClass('active')
+
+          if ($(this).hasClass('active')) {
+            $('.globalMenuSp').addClass('active')
+          } else {
+            $('.globalMenuSp').removeClass('active')
+          }
+        })
+      })
+    </script>
   </body>
 </html>

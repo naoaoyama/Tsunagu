@@ -515,20 +515,19 @@
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
-    >
-          $(function() {
+    ></script>
+    <script>
+      $(function () {
+        $('.hamburger').click(function () {
+          $(this).toggleClass('active')
 
-        $('.hamburger').click(function() {
-            $(this).toggleClass('active');
-
-            if ($(this).hasClass('active')) {
-                $('.globalMenuSp').addClass('active');
-            } else {
-                $('.globalMenuSp').removeClass('active');
-            }
-        });
-
-      });
+          if ($(this).hasClass('active')) {
+            $('.globalMenuSp').addClass('active')
+          } else {
+            $('.globalMenuSp').removeClass('active')
+          }
+        })
+      })
     </script>
   </body>
 </html>
