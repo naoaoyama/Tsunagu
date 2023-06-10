@@ -138,7 +138,7 @@ a {
 }
 
 .main-visual__container {
-    background-image: url(https://github.com/naoaoyama/Tsunagu/blob/main/img/top_mv.jpg?raw=true);
+    background-image: url("https://github.com/naoaoyama/Tsunagu/blob/main/img/top_mv.jpg?raw=true");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -348,7 +348,7 @@ a {
 }
 
 .resolution {
-    background-image: url(/img/touka_5148052_m.jpg);
+    background-image: url(../img/touka_5148052_m.jpg);
     background-position: center;
     background-size: cover;
 }
