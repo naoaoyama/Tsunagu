@@ -47,9 +47,9 @@
                 <figure>
                   <img src="./img/tel_brown.png" alt="電話のアイコン" />
                 </figure>
-                <a href="tel:06-6843-1199" class="header-nav__tel--number"
-                  >06-6843-1199</a
-                >
+                <a href="tel:06-6843-1199" class="header-nav__tel--number"></a>
+                  06-6843-1199
+                </a>
               </div>
               <p>9:00〜20:00(緊急時24時間対応)</p>
             </li>
@@ -58,7 +58,11 @@
                 <figure>
                   <img src="./img/smart.png" alt="スマホのイラスト" />
                 </figure>
-                <p>LINE<br />お問い合わせ</p>
+                <p>
+                  LINE
+                  <br />
+                  お問い合わせ
+                </p>
               </a>
             </li>
             <li class="header-nav__right--mail">
@@ -66,7 +70,11 @@
                 <figure>
                   <img src="./img/mail_white.png" alt="メールのイラスト" />
                 </figure>
-                <p>MAIL<br />お問い合わせ</p>
+                <p>
+                  MAIL
+                  <br />
+                  お問い合わせ
+                </p>
               </a>
             </li>
           </ul>
@@ -106,7 +114,8 @@
       <div class="title__wrapper">
         <h1 class="title">お問い合わせ</h1>
         <p class="contact-about__description">
-          以下のフォームに必要事項をご入力の上、ご登録ください。<br />
+          以下のフォームに必要事項をご入力の上、ご登録ください。
+          <br />
           LINE・お電話からのご相談も承っておりますのでご連絡ください。
         </p>
       </div>
@@ -119,7 +128,10 @@
         <div class="form-container">
           <form action="#">
             <div>
-              <label for="name"><span class="required">必須</span>お名前</label>
+              <label for="name">
+                <span class="required">必須</span>
+                お名前
+              </label>
               <input
                 class="textform"
                 type="text"
@@ -129,9 +141,10 @@
               />
             </div>
             <div>
-              <label for="name"
-                ><span class="required">必須</span>メールアドレス</label
-              >
+              <label for="name">
+                <span class="required">必須</span>
+                メールアドレス
+              </label>
               <input
                 class="textform"
                 type="email"
@@ -141,9 +154,10 @@
               />
             </div>
             <div>
-              <label for="name"
-                ><span class="required">必須</span>問い合わせの種類</label
-              >
+              <label for="name">
+                <span class="required">必須</span>
+                問い合わせの種類
+              </label>
               <p>
                 <input
                   type="radio"
@@ -175,9 +189,10 @@
               </p>
             </div>
             <div>
-              <label for="name"
-                ><span class="any">任意</span>問い合わせの内容</label
-              >
+              <label for="name">
+                <span class="any">任意</span>
+                問い合わせの内容
+              </label>
               <textarea
                 name="your-message"
                 placeholder="ご自由にご記入ください。"
@@ -187,8 +202,9 @@
             <div class="contact-privacy">
               <p>
                 <a href="example.com" target="_blank" rel="noopener noreferrer">
-                  個人情報保護方針</a
-                >に同意したものとします。
+                  個人情報保護方針
+                </a>
+                に同意したものとします。
               </p>
             </div>
 
@@ -260,7 +276,7 @@
             <li class="question__item">
               <div class="question__item--heading">
                 <p class="question__item--heading--Q">Q</p>
-                <span> パートナーに引っ越しがバレる心配はありますか？</span>
+                <span>パートナーに引っ越しがバレる心配はありますか？</span>
               </div>
               <div class="question__item--answer">
                 <p class="question__item--answer--A">A</p>
@@ -457,9 +473,9 @@
                 <figure>
                   <img src="./img/tel_brown.png" alt="電話のアイコン" />
                 </figure>
-                <a href="tel:06-6843-1199" class="header-nav__tel--number"
-                  >06-6843-1199</a
-                >
+                <a href="tel:06-6843-1199" class="header-nav__tel--number">
+                  06-6843-1199
+                </a>
               </div>
               <p>9:00〜20:00(緊急時24時間対応)</p>
             </div>
@@ -475,11 +491,17 @@
             </div>
           </div>
           <ul>
-            <li><a href="system.html" class="arrow cover">当社のシステム</a></li>
-            <li><a href="nurse.html" class="arrow cover">障がい者の方へ</a></li>
-            <li><a href="crime.html" class="arrow cover">犯罪歴のある方へ</a></li>
             <li>
-              <a href="welfare.html" class="arrow cover">生活保護申請サポート</a>
+              <a href="system.html" class="arrow cover">当社のシステム</a>
+            </li>
+            <li><a href="nurse.html" class="arrow cover">障がい者の方へ</a></li>
+            <li>
+              <a href="crime.html" class="arrow cover">犯罪歴のある方へ</a>
+            </li>
+            <li>
+              <a href="welfare.html" class="arrow cover">
+                生活保護申請サポート
+              </a>
             </li>
             <li><a href="contact.html" class="arrow cover">お問い合わせ</a></li>
           </ul>
@@ -493,7 +515,20 @@
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
-    ></script>
-    <script type="text/javascript" src="/script.js"></script>
+    >
+          $(function() {
+
+        $('.hamburger').click(function() {
+            $(this).toggleClass('active');
+
+            if ($(this).hasClass('active')) {
+                $('.globalMenuSp').addClass('active');
+            } else {
+                $('.globalMenuSp').removeClass('active');
+            }
+        });
+
+      });
+    </script>
   </body>
 </html>
